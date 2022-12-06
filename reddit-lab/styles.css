@@ -1,0 +1,20 @@
+body {
+  background-color: tan;
+}
+
+h1 {
+  display: flex;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: blue;
+}
+
+img {
+  border: 5px solid crimson;
+  border-radius: 5px;
+}
+
+a {
+  display: flex;
+  justify-content: flex-start;
+}
