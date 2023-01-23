@@ -1,0 +1,6 @@
+header{
+    color: #0e3c7e;
+    display: flex;
+    justify-content: center;
+    border-bottom: .1em solid gray;
+}

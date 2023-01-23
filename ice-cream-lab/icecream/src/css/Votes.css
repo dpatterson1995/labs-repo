@@ -1,0 +1,48 @@
+.Votes{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    padding-right: 15px;
+}
+
+.Votes h2{
+    padding-right:15px;
+}
+
+.Votes label{
+    font-weight: bold;
+    display: inline-block;
+    width: 6em;
+}
+
+.Votes p{
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+progress::-webkit-progress-bar{
+    background-color: white;
+}
+.progressChocolate{
+    background-color: white;
+}
+
+.progressChocolate::-webkit-progress-value{
+    background-color: #4f2c2c;
+}
+
+.progressVanilla{
+    background-color: white;
+}
+
+.progressVanilla::-webkit-progress-value{
+    background-color: #cbc0ac;
+}
+
+.progressStrawberry{
+    background-color: white;
+}
+.progressStrawberry::-webkit-progress-value{
+background-color: pink;
+}

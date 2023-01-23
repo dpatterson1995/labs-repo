@@ -1,0 +1,31 @@
+#AdDesign{
+    padding-left: 15px;
+    font-family: Caveat;
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    font-family: sans-serif;
+}
+.sans{
+    font-family: sans-serif;
+}
+.button-bar-font{
+    padding-right: 5px;
+}
+button:active{
+    background-color: #1e60a9;
+}
+button:disabled{
+    background-color: gray;
+}
+button{
+    background-color: #0e3c7e
+}
+
+input{
+margin-left: 8px;
+width:45px;
+border: none;
+padding-left: 25px;
+}
