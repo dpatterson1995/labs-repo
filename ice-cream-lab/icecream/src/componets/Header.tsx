@@ -1,8 +1,19 @@
-import '../css/Header.css'
+import '../css/Header.css';
 
-export function Header (){
-    return(
-    <header><h2>Ice Cream Wars</h2></header>
-    )
+interface User{
+    User:string
 }
 
+
+export function Header (props:User){
+
+    return(
+    <div className="user">
+        <header>
+            <h2 id="header">Ice Cream Wars</h2>
+            <p id="welcome">Welcome {props.User}</p>
+        </header>
+
+    </div>
+    )
+}

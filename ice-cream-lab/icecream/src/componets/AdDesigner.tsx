@@ -10,7 +10,7 @@ export function AdDesign() {
 
     return (
         <div id="AdDesign">
-        <h2>Ad Design</h2>
+        <h2>Ad Designer</h2>
 
         
         <Ad flavor={flavor} isLight={isLight} fontSize={fontSize}/>
